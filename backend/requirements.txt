@@ -6,6 +6,7 @@ pandas
 numpy
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch
+scikit-learn
 xgboost
 sqlalchemy
 geoalchemy2
