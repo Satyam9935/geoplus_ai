@@ -4,7 +4,7 @@ import MapViewer from "./components/Map/MapViewer";
 import TrajectoryChart from "./components/Analytics/TrajectoryChart";
 import { Activity, Droplets, Thermometer } from "lucide-react";
 
-const API_BASE = "http://127.0.0.1:8000/api/v1";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000/api/v1";
 
 export default function App() {
   const [selectedPos, setSelectedPos] = useState([26.8467, 80.9462]);
